@@ -90,6 +90,7 @@ def main():
     shellFormatting = {
         "bash": "alias {}='{}'",
         "zsh": "alias {}='{}'",
+        "zsh-abbr": "abbr -S {}='{}'",
         "fish": "abbr --add {} \"{}\"",
     }
 

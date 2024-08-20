@@ -119,6 +119,9 @@ python generate_aliases.py > .kubectl_aliases
 
 # Generate abbr for fish
 python generate_aliases.py fish > .kubectl_aliases.fish
+
+# Generate abbr for zsh
+python generate_aliases.py zsh-abbr > .kubectl_aliases.zsh-abbr
 ```
 
 ### FAQ
